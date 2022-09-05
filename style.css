@@ -1,0 +1,284 @@
+/* index page styling */
+.section-padding {
+    padding: 50px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.993);
+    text-transform: uppercase;
+    letter-spacing: 2;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    color: red;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px
+}
+
+#team {
+    background-color: rgba(77, 75, 75, 0.979);
+    color: white
+}
+
+
+.services.card-body {
+    font-size: 30px;
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+
+
+#b1 {
+    margin: 10px 20px;
+}
+
+#f1 {
+    margin: 5px;
+    padding: 10px 30px;
+    background-color: rgb(77, 77, 185);
+}
+
+a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+label {
+    color: white;
+}
+
+.c1 {
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: black;
+}
+
+.c1-1 {
+    border: 1px solid rgb(13, 13, 139);
+    border-radius: 10px;
+    background-color: rgb(72, 125, 240);
+}
+
+.c1-2 {
+    padding: 15px 20px;
+}
+
+.b1 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#cc {
+    height: 50px;
+}
+
+/* Popular Course styling */
+.pc {
+    background-image: linear-gradient(180deg, rgba(238, 144, 241, 0.678) 0%, rgb(109, 107, 230) 95.34%);
+    margin-top: -10px;
+}
+
+.pc1 {
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.cl {
+    border-radius: 20px;
+    background-color: rgb(214, 211, 211);
+    margin: 20px 0px;
+    padding: 2px 0px;
+}
+
+.cl:hover {
+    background-image: linear-gradient(180deg, rgba(84, 224, 241, 1.00) 0%, rgba(249, 51, 255, 1.00) 95.34%);
+    color: white;
+    box-shadow: 10px 10px 5px rgb(214, 211, 211);
+}
+
+a:hover {
+    color: white
+}
+
+.sep-pc {
+    background-color: rgb(214, 211, 211);
+    margin: 0px 15px 15px 15px;
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+}
+
+.sep-pc:hover {
+    background-image: linear-gradient(180deg, rgba(84, 224, 241, 1.00) 0%, rgba(249, 51, 255, 1.00) 95.34%);
+    box-shadow: 10px 10px 5px grey;
+    color: white;
+}
+
+.card-body a:hover {
+    box-shadow: 5px 5px 5px rgb(33, 200, 230);
+}
+
+/* Career Counseling Styling */
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+.cc-heading {
+    text-align: center;
+}
+
+.cc1,
+.cc3 {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.cc2 {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+/* About Us Styling */
+#ab {
+    margin: 20px;
+    padding: 25px;
+}
+
+#ab1 {
+    margin-top: 30px;
+    background-image: url("image/a1.jpg");
+}
+
+.en-st {
+    background-color: rgb(238, 232, 232);
+    padding: 10px 0px 5px 8px;
+    margin: -20px 0px 0px -60px;
+    width: 250px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+.list {
+    margin-top: 300px;
+    margin-right: 300px;
+    border: 1px solid green;
+}
+
+.li-it {
+    border-radius: 50px;
+    size: 100px;
+    background-color: white;
+}
+
+#ab2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#classes {
+    background-color: rgb(190, 186, 186);
+    margin: 10px;
+    border-radius: 20px;
+    ;
+}
+
+/* Contact Page */
+#cont {
+    width: 80%;
+    margin: 15px 0px 15px 150px;
+    background-color: rgb(77, 200, 238);
+    border-radius: 20px;
+}
+
+#cont1 {
+    background-color: rgb(71, 90, 196);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#cont1 img{
+    max-height: 50px;
+    max-width: 50px;
+}
+.details {
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 100px;
+}
